@@ -26,7 +26,7 @@ _Jugador_
 
 Para el jugador se ha hecho uso del prefab en Standard Assets FirstPersonCharacter. Aún así se ha implementado un controlador para disparar que administra la munición de cada arma, y un controlador para manejar el estado de éste: la vida y la información que traspasará a la HUD.
 
-Para la administración de armas se ha creado un objeto WeaponHolder, hijo del FirstPersonCharacter. Tiene los objetos para las armas y se administra con un array de ellas. Cuando el jugador usa el botón de cambio de arma, se activa la que va a usar y se desactiva la que estaba usando. Cada arma tiene una clase, clase assaultRifle y clase gun, así se puede diferenciar el daño y munición independientemente de ellas.
+Para la administración de armas se ha creado un objeto WeaponHolder, hijo del FirstPersonCharacter. Tiene los objetos para las armas y se administra con el objeto de ellas. Cuando el jugador usa el botón de cambio de arma, se activa la que va a usar y se desactiva la que estaba usando. Cada arma tiene una clase, clase assaultRifle y clase gun, así se puede diferenciar el daño y munición independientemente de ellas.
 
 _Drones enemigos_
 
